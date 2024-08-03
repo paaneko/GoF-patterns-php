@@ -11,10 +11,10 @@ class ClientCode
     public function main(): void
     {
         $config = $this->readApplicationConfigFile();
-        
+
         if ($config['product'] === 'A') {
             $this->product = (new ProductACreator())->createProduct();
-        } else if ($config['product'] === 'B') {
+        } elseif ($config['product'] === 'B') {
             $this->product = (new ProductBCreator())->createProduct();
         } else {
             throw new \DomainException();

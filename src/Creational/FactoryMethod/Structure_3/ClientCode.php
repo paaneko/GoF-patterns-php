@@ -18,7 +18,7 @@ class ClientCode
 
         if ($config['product'] === 'A') {
             $this->product = $this->productCreator->createProductA();
-        } else if ($config['product'] === 'B') {
+        } elseif ($config['product'] === 'B') {
             $this->product = $this->productCreator->createProductB();
         } else {
             throw new \DomainException();

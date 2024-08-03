@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Creational\FactoryMethod\Example;
 
 use App\Creational\FactoryMethod\Example\ClientCode;
