@@ -9,3 +9,6 @@ require-dev:
 
 require:
 	docker compose exec php composer require
+
+cs-fix:
+	docker compose exec php vendor/bin/php-cs-fixer fix

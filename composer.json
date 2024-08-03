@@ -1,9 +1,7 @@
 {
     "autoload": {
         "psr-4": {
-            "Behavioral\\": "Behavioral/",
-            "Creational\\": "Creational/",
-            "Structural\\": "Structural/"
+            "App\\": "src/"
         }
     },
     "require": {
@@ -11,6 +9,7 @@
     },
     "require-dev": {
         "roave/security-advisories": "dev-latest",
-        "phpunit/phpunit": "^11.3"
+        "phpunit/phpunit": "^11.3",
+        "friendsofphp/php-cs-fixer": "^3.59"
     }
 }
